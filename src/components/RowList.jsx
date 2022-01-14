@@ -9,12 +9,13 @@ function RowList(props) {
   function renderRowList(type) {
     if (type === "category") {
       return categories.map((catg) => (
-        <CategoryCard name={catg.name} img={catg.img} />
+        <CategoryCard key={catg.id} name={catg.name} img={catg.img} />
       ));
     } else if (type === "shop") {
       return shops.map((shop) => {
         return (
           <ShopCard
+            key={shop.id}
             name={shop.name}
             img={shop.img}
             location={shop.location.area}

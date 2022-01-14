@@ -8,7 +8,7 @@ const shops = [
         },
         rating: 5,
         category: "Food and Drinks",
-        img: "../images/shops/sardar-shop.jpg" 
+        img: "./images/shops/sardar-shop.jpg" 
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const shops = [
         },
         rating: 4,
         category: "Clothing & Acessories",
-        img: "../images/shops/oddish-shop.jpg" 
+        img: "./images/shops/oddish-shop.jpg" 
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const shops = [
         },
         rating: 5,
         category: "Electronics",
-        img: "../images/shops/electronics-shop.jpg" 
+        img: "./images/shops/electronics-shop.jpg" 
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ const shops = [
         },
         rating: 5,
         category: "Food and Drinks",
-        img: "../images/shops/sukhbir-shop.png" 
+        img: "./images/shops/sukhbir-shop.png" 
     },
     // {
     //     id: 5,
