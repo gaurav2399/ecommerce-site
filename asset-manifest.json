@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecommerce-site/static/css/main.7122d6cf.css",
-    "main.js": "/ecommerce-site/static/js/main.6c79ed41.js",
+    "main.css": "/ecommerce-site/static/css/main.b2c085cb.css",
+    "main.js": "/ecommerce-site/static/js/main.043fd21b.js",
     "static/media/search-section-bg-img.jpg": "/ecommerce-site/static/media/search-section-bg-img.9412d45ad33190cf567a.jpg",
     "static/media/kids-shop.jpg": "/ecommerce-site/static/media/kids-shop.1d72c136cd08b14d4d4a.jpg",
     "static/media/sukhbir-shop.png": "/ecommerce-site/static/media/sukhbir-shop.63659213a256a0ce4d66.png",
@@ -9,11 +9,11 @@
     "static/media/oddish-shop.jpg": "/ecommerce-site/static/media/oddish-shop.9522d9117d5eb39bfc59.jpg",
     "static/media/electronics-shop.jpg": "/ecommerce-site/static/media/electronics-shop.e8a1ee9acb676b33a9f0.jpg",
     "index.html": "/ecommerce-site/index.html",
-    "main.7122d6cf.css.map": "/ecommerce-site/static/css/main.7122d6cf.css.map",
-    "main.6c79ed41.js.map": "/ecommerce-site/static/js/main.6c79ed41.js.map"
+    "main.b2c085cb.css.map": "/ecommerce-site/static/css/main.b2c085cb.css.map",
+    "main.043fd21b.js.map": "/ecommerce-site/static/js/main.043fd21b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7122d6cf.css",
-    "static/js/main.6c79ed41.js"
+    "static/css/main.b2c085cb.css",
+    "static/js/main.043fd21b.js"
   ]
 }
