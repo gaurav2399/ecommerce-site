@@ -6,13 +6,18 @@ import ShopCard from "./ShopCard";
 
 function RowList(props) {
 
-  function renderRowList(type) {
+  function renderRowList(type, loc) {
+    const { saharanpur, dehradun, roorkee } = shops;
     if (type === "category") {
       return categories.map((catg) => (
         <CategoryCard key={catg.id} name={catg.name} img={catg.img} />
       ));
     } else if (type === "shop") {
-      return shops.map((shop) => {
+      let list = saharanpur;
+      if (loc === "Dehradun") list = dehradun;
+      else if(loc === "Roorkee") list = roorkee;
+      else list = saharanpur;
+      return list.map((shop) => {
         return (
           <ShopCard
             key={shop.id}
@@ -25,11 +30,11 @@ function RowList(props) {
         );
       });
     } else {
-        return <h1>Error!!</h1>
+      return <h1>Error!!</h1>;
     }
   }
 
-  return <div className="flex-container">{renderRowList(props.type)}</div>;
+  return <div className="flex-container">{renderRowList(props.type, props.loc)}</div>;
 }
 
 export default RowList;

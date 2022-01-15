@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar";
 function SearchSection() {
   return (
     <div className="search-section">
-      <p>Search over a million products on Shopping.com</p>
+      <p>Search over a million products on Neelpari.com</p>
       <SearchBar />
     </div>
   );

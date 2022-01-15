@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 
-function Footer() {
-  
-  const [location, setLocation] = useState("Saharanpur");
+function Footer(props) {
+  const [localLocation, setLocalLocation] = useState("Saharanpur");
 
-  function addLocation(loc){
-    setLocation(loc);
+  function setClick(loc){
+    setLocalLocation(loc);
+    props.handleClick(loc);
   }
 
   return (
     <div className="footer">
       <div className="table-section">
-        <table>
+        <table className="main-table">
           <thead>
             <tr>
               <th>About</th>
@@ -28,8 +28,8 @@ function Footer() {
                 <a href="#top-categories">Top Categories</a>
               </td>
               <td
-                className={location === "Saharanpur" ? "td-selected" : ""}
-                onClick={() => addLocation("Saharanpur")}
+                className={localLocation === "Saharanpur" ? "td-selected" : ""}
+                onClick={() => setClick("Saharanpur")}
               >
                 <span>Saharanpur</span>
               </td>
@@ -42,8 +42,8 @@ function Footer() {
                 <a href="#top-shops">Top Shops</a>
               </td>
               <td
-                className={location === "Dehradun" ? "td-selected" : ""}
-                onClick={() => addLocation("Dehradun")}
+                className={localLocation === "Dehradun" ? "td-selected" : ""}
+                onClick={() => setClick("Dehradun")}
               >
                 <span>Dehradun</span>
               </td>
@@ -54,8 +54,8 @@ function Footer() {
               </td>
               <td></td>
               <td
-                className={location === "Roorkee" ? "td-selected" : ""}
-                onClick={() => addLocation("Roorkee")}
+                className={localLocation === "Roorkee" ? "td-selected" : ""}
+                onClick={() => setClick("Roorkee")}
               >
                 <span>Roorkee</span>
               </td>
@@ -70,7 +70,7 @@ function Footer() {
           </tbody>
         </table>
       </div>
-      <p className="gaurav">©2022 Made with 💙 By gaurav2399</p>
+      <p className="gaurav">©2022 Made with 💙 By <a href="https://www.linkedin.com/in/gaurav-sharma-43b6a4183/">gaurav2399</a></p>
     </div>
   );
 }

@@ -6,9 +6,8 @@ function SearchBar(){
             <label className="search-title">Search By</label>
             <div className="vl"></div>
             <input type="text" placeholder="What are you shopping for?" className="search-box"></input>
-            <button className="search-btn">Search</button>
         </div>
-        
+        <button className="search-btn">Search</button>
     </div>);
 };
 
