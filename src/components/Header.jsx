@@ -6,7 +6,7 @@ function Header() {
     <Navbar className="navbar-bg-color navbar" variant="light">
       <Navbar.Brand href="#" className="me-auto vertical-align logo">
         <img
-          src="./images/logo/shop-64.png"
+          src={process.env.PUBLIC_URL + "/images/logo/shop-64.png"}
           alt="icon"
           className="icon-img"
         ></img>

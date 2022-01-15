@@ -2,27 +2,27 @@ const categories = [
     {
         id: 1,
         name: "Clothing & Acessories",
-        img: "./images/categories/cloth-acesories.png"
+        img: process.env.PUBLIC_URL + "/images/categories/cloth-acesories.png"
     },
     {
         id: 2,
         name: "Home & Garden",
-        img: "./images/categories/home-garden.jpg"
+        img: process.env.PUBLIC_URL + "/images/categories/home-garden.jpg"
     },
     {
         id: 3,
         name: "Electronics",
-        img: "./images/categories/electronics.jpeg"
+        img: process.env.PUBLIC_URL + "/images/categories/electronics.jpeg"
     },
     {
         id: 4,
         name: "Healthy & Beauty Supplies",
-        img: "./images/categories/healthy-beauty.jpg"
+        img: process.env.PUBLIC_URL + "/images/categories/healthy-beauty.jpg"
     },
     {
         id: 5,
         name: "Babies & Kids",
-        img: "./images/categories/baby-kids.jpg"
+        img: process.env.PUBLIC_URL + "/images/categories/baby-kids.jpg"
     }
 ];
 

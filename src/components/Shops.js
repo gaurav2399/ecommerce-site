@@ -1,3 +1,9 @@
+import electronics from '../assets/shops/electronics-shop.jpg'
+import kids from '../assets/shops/kids-shop.jpg'
+import oddish from '../assets/shops/oddish-shop.jpg'
+import sardar from '../assets/shops/sardar-shop.jpg'
+import sukhbir from '../assets/shops/sukhbir-shop.png'
+
 const shops = [
     {
         id: 1,
@@ -8,7 +14,7 @@ const shops = [
         },
         rating: 5,
         category: "Food and Drinks",
-        img: "./images/shops/sardar-shop.jpg" 
+        img: sardar
     },
     {
         id: 2,
@@ -19,7 +25,7 @@ const shops = [
         },
         rating: 4,
         category: "Clothing & Acessories",
-        img: "./images/shops/oddish-shop.jpg" 
+        img: oddish
     },
     {
         id: 3,
@@ -30,7 +36,7 @@ const shops = [
         },
         rating: 5,
         category: "Electronics",
-        img: "./images/shops/electronics-shop.jpg" 
+        img: electronics
     },
     {
         id: 4,
@@ -41,7 +47,7 @@ const shops = [
         },
         rating: 5,
         category: "Food and Drinks",
-        img: "./images/shops/sukhbir-shop.png" 
+        img: sukhbir 
     },
     // {
     //     id: 5,

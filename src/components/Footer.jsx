@@ -22,7 +22,7 @@ function Footer() {
           <tbody>
             <tr>
               <td>
-                <a href="#">Home</a>
+                <a href="#blank">Home</a>
               </td>
               <td>
                 <a href="#top-categories">Top Categories</a>
@@ -36,7 +36,7 @@ function Footer() {
             </tr>
             <tr>
               <td>
-                <a href="#">About Us</a>
+                <a href="#blank">About Us</a>
               </td>
               <td>
                 <a href="#top-shops">Top Shops</a>
@@ -50,7 +50,7 @@ function Footer() {
             </tr>
             <tr>
               <td>
-                <a href="#">Privacy Policy</a>
+                <a href="#blank">Privacy Policy</a>
               </td>
               <td></td>
               <td
@@ -62,7 +62,7 @@ function Footer() {
             </tr>
             <tr>
               <td>
-                <a href="#">Contact Us</a>
+                <a href="#blank">Contact Us</a>
               </td>
               <td></td>
               <td></td>
