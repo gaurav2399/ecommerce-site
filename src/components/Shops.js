@@ -50,17 +50,61 @@ const shops = {
             category: "Food and Drinks",
             img: sukhbir 
         },
-        // {
-        //     id: 5,
-        //     name: "Kids Look",
-        //     location: {
-        //         area: "Court Road",
-        //         city: "Saharanpur"
-        //     },
-        //     rating: 5,
-        //     category: "Babies and Kids",
-        //     img: "../images/shops/kids-shop.jpg" 
-        // }
+        {
+            id: 5,
+            name: "Kids Look",
+            location: {
+                area: "Court Road",
+                city: "Saharanpur"
+            },
+            rating: 5,
+            category: "Babies and Kids",
+            img: kids
+        },
+        {
+            id: 6,
+            name: "Kids Look",
+            location: {
+                area: "Court Road",
+                city: "Saharanpur"
+            },
+            rating: 5,
+            category: "Babies and Kids",
+            img: kids
+        },
+        {
+            id: 7,
+            name: "Kids Look",
+            location: {
+                area: "Court Road",
+                city: "Saharanpur"
+            },
+            rating: 5,
+            category: "Babies and Kids",
+            img: kids
+        },
+        {
+            id: 8,
+            name: "Kids Look",
+            location: {
+                area: "Court Road",
+                city: "Saharanpur"
+            },
+            rating: 5,
+            category: "Babies and Kids",
+            img: kids
+        },
+        {
+            id: 9,
+            name: "Kids Look",
+            location: {
+                area: "Court Road",
+                city: "Saharanpur"
+            },
+            rating: 5,
+            category: "Babies and Kids",
+            img: kids
+        }
     ],
     dehradun: [
         {

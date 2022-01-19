@@ -1,5 +1,7 @@
 import React from "react";
-import { Navbar, Nav} from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
@@ -9,7 +11,7 @@ function Header() {
       className="navbar-bg-color navbar"
       variant="light"
     >
-      <Navbar.Brand href="#" className="me-auto vertical-align logo">
+      <Navbar.Brand href="/" className="me-auto vertical-align logo">
         <img
           src={process.env.PUBLIC_URL + "/images/logo/shop-64.png"}
           alt="icon"
@@ -28,6 +30,12 @@ function Header() {
           </Nav.Link>
           <Nav.Link eventKey="3" href="#top-shops">
             <h5>Top Shops</h5>
+          </Nav.Link>
+          <Nav.Link eventKey="4" href="/admin">
+            <div className="admin">
+              <FontAwesomeIcon icon={faUser} className="admin-icon" />
+              <h5 className="admin-text">Admin</h5>
+            </div>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

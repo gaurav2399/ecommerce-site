@@ -5,8 +5,7 @@ import CategoryCard from "./CategoryCard";
 import ShopCard from "./ShopCard";
 
 function RowList(props) {
-
-  function renderRowList(type, loc) {
+  function renderRowList(type, loc, ct) {
     const { saharanpur, dehradun, roorkee } = shops;
     if (type === "category") {
       return categories.map((catg) => (
@@ -15,7 +14,7 @@ function RowList(props) {
     } else if (type === "shop") {
       let list = saharanpur;
       if (loc === "Dehradun") list = dehradun;
-      else if(loc === "Roorkee") list = roorkee;
+      else if (loc === "Roorkee") list = roorkee;
       else list = saharanpur;
       return list.map((shop) => {
         return (
@@ -34,7 +33,9 @@ function RowList(props) {
     }
   }
 
-  return <div className="flex-container">{renderRowList(props.type, props.loc)}</div>;
+  return (
+    <div className="flex-container">{renderRowList(props.type, props.loc)}</div>
+  );
 }
 
 export default RowList;
