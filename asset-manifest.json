@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/ecommerce-site/static/css/main.b2c085cb.css",
-    "main.js": "/ecommerce-site/static/js/main.043fd21b.js",
-    "static/media/search-section-bg-img.jpg": "/ecommerce-site/static/media/search-section-bg-img.9412d45ad33190cf567a.jpg",
+    "main.css": "/ecommerce-site/static/css/main.7dbd5d82.css",
+    "main.js": "/ecommerce-site/static/js/main.6dd97928.js",
     "static/media/kids-shop.jpg": "/ecommerce-site/static/media/kids-shop.1d72c136cd08b14d4d4a.jpg",
     "static/media/sukhbir-shop.png": "/ecommerce-site/static/media/sukhbir-shop.63659213a256a0ce4d66.png",
     "static/media/sardar-shop.jpg": "/ecommerce-site/static/media/sardar-shop.9c7917c4fb91ef436341.jpg",
     "static/media/oddish-shop.jpg": "/ecommerce-site/static/media/oddish-shop.9522d9117d5eb39bfc59.jpg",
     "static/media/electronics-shop.jpg": "/ecommerce-site/static/media/electronics-shop.e8a1ee9acb676b33a9f0.jpg",
+    "static/media/revicons.eot": "/ecommerce-site/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/ecommerce-site/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/ecommerce-site/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/ecommerce-site/index.html",
-    "main.b2c085cb.css.map": "/ecommerce-site/static/css/main.b2c085cb.css.map",
-    "main.043fd21b.js.map": "/ecommerce-site/static/js/main.043fd21b.js.map"
+    "main.7dbd5d82.css.map": "/ecommerce-site/static/css/main.7dbd5d82.css.map",
+    "main.6dd97928.js.map": "/ecommerce-site/static/js/main.6dd97928.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2c085cb.css",
-    "static/js/main.043fd21b.js"
+    "static/css/main.7dbd5d82.css",
+    "static/js/main.6dd97928.js"
   ]
 }
