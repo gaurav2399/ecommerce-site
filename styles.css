@@ -121,7 +121,7 @@ hr {
   min-width: 100%;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   overflow: hidden;
 }
 
