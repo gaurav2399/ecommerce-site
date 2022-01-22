@@ -6,7 +6,7 @@ function ListDivider(props) {
       <hr />
       <div>
         <h3 className="divider-heading">{props.divider}</h3>
-        <p className="divider-see-more">See More</p>
+        <a className="divider-see-more">{props.divider === "Top Shops" ? "View All" : "See More"}</a>
       </div>
       <hr />
     </div>

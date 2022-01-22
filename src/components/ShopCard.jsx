@@ -15,7 +15,7 @@ function ShopCard(props) {
       <img src={props.img} alt="shop-img" />
       <h4>{props.name}</h4>
 
-      <table className="shop-table">
+      {/* <table className="shop-table">
         <tbody>
           <tr>
             <td className="key">
@@ -40,7 +40,7 @@ function ShopCard(props) {
             <td className="value">{showRating(props.rating)}</td>
           </tr>
         </tbody>
-      </table>
+      </table> */}
 
       <Button variant="primary" className="shop-btn">
         View Shop

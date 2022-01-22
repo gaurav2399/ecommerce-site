@@ -4,6 +4,7 @@ import SearchSection from "./SearchSection";
 import ListDivider from "./ListDivider";
 import RowList from "./RowList";
 import Footer from "./Footer";
+import WorkingSpace from "./WorkingSpace";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <div>
+    {/* <WorkingSpace /> */}
       <Header />
       <SearchSection />
       <ListDivider divider="Top Categories" />

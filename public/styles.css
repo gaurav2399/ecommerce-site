@@ -46,7 +46,7 @@ p {
 }
 
 .search-section {
-  background-image: url("../public/images/search-section-bg-img.jpg");
+  background-image: url("./images/search-section-bg-img.jpg");
   background-size: 100% 220%;
   background-repeat: no-repeat;
   height: 350px;
@@ -113,6 +113,7 @@ hr {
   color: #2f89fc;
   font-size: 1rem;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .flex-container {
@@ -147,7 +148,6 @@ hr {
   padding: 10px;
   border: 2px solid black;
   border-radius: 6px;
-  width: 300px;
 }
 
 .shop-card img {
@@ -161,7 +161,7 @@ hr {
 
 .shop-card h4 {
   text-align: center;
-  padding: 10px;
+  padding: 10px 0;
   color: lightseagreen;
 }
 
@@ -175,12 +175,12 @@ hr {
 }
 
 .shop-table .key h6{
-  margin-left: 20px;
+  /* margin-left: 20px; */
   display: inline;
 }
 
 .shop-table .value p{
-  margin-left: -45px;
+  /* margin-left: -45px; */
   font-size: 1rem;
   display: inline;
   position: relative;

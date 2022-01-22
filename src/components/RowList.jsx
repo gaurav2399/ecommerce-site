@@ -3,6 +3,8 @@ import categories from "./Categories";
 import shops from "./Shops";
 import CategoryCard from "./CategoryCard";
 import ShopCard from "./ShopCard";
+import Carousel from 'react-multi-carousel';
+import "react-multi-carousel/lib/styles.css";
 
 function RowList(props) {
   function renderRowList(type, loc, ct) {
@@ -33,9 +35,46 @@ function RowList(props) {
     }
   }
 
-  return (
-    <div className="flex-container">{renderRowList(props.type, props.loc)}</div>
-  );
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1320 },
+      items: 4
+    },
+    tablet: {
+      breakpoint: { max: 1320, min: 1040 },
+      items: 3
+    },
+    mid1: {
+      breakpoint: { max: 1040, min: 764 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 764, min: 0 },
+      items: 1
+    }
+  };
+
+
+  // can add slides to slide acc to screen size
+
+  function renderComponent(){
+    if(props.type === "shop"){
+      return <Carousel responsive={responsive} centerMode={true}>
+        {renderRowList(props.type, props.loc)}
+      </Carousel>;
+    }else{
+        return <div className="flex-container">{renderRowList(props.type, props.loc)}</div>
+    }
+    
+  }
+
+  return renderComponent();
+  
 }
 
 export default RowList;
