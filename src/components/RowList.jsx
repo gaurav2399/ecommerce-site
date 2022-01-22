@@ -39,23 +39,33 @@ function RowList(props) {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 5,
+      partialVisibilityGutter: 110,
+      slidesToSlide: 5
     },
     desktop: {
       breakpoint: { max: 3000, min: 1320 },
-      items: 4
+      items: 4,
+      partialVisibilityGutter: 90,
+      slidesToSlide: 4
     },
     tablet: {
       breakpoint: { max: 1320, min: 1040 },
-      items: 3
+      items: 3,
+      partialVisibilityGutter: 90,
+      slidesToSlide: 3
     },
     mid1: {
       breakpoint: { max: 1040, min: 764 },
-      items: 2
+      items: 2,
+      partialVisibilityGutter: 70,
+      slidesToSlide: 2
     },
     mobile: {
       breakpoint: { max: 764, min: 0 },
-      items: 1
+      items: 1,
+      partialVisibilityGutter: 70,
+      slidesToSlide: 1
     }
   };
 
@@ -64,7 +74,7 @@ function RowList(props) {
 
   function renderComponent(){
     if(props.type === "shop"){
-      return <Carousel responsive={responsive} centerMode={true}>
+      return <Carousel responsive={responsive} partialVisible={true} infinite={true}>
         {renderRowList(props.type, props.loc)}
       </Carousel>;
     }else{
