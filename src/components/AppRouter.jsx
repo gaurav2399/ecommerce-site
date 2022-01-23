@@ -13,6 +13,7 @@ function AppRouter() {
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/ecommerce-site" element={<App />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
