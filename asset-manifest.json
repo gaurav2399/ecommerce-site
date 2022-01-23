@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecommerce-site/static/css/main.7dbd5d82.css",
-    "main.js": "/ecommerce-site/static/js/main.ddea77fa.js",
+    "main.js": "/ecommerce-site/static/js/main.fd28f1f2.js",
     "static/media/kids-shop.jpg": "/ecommerce-site/static/media/kids-shop.1d72c136cd08b14d4d4a.jpg",
     "static/media/sukhbir-shop.png": "/ecommerce-site/static/media/sukhbir-shop.63659213a256a0ce4d66.png",
     "static/media/sardar-shop.jpg": "/ecommerce-site/static/media/sardar-shop.9c7917c4fb91ef436341.jpg",
@@ -12,10 +12,10 @@
     "static/media/revicons.woff": "/ecommerce-site/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/ecommerce-site/index.html",
     "main.7dbd5d82.css.map": "/ecommerce-site/static/css/main.7dbd5d82.css.map",
-    "main.ddea77fa.js.map": "/ecommerce-site/static/js/main.ddea77fa.js.map"
+    "main.fd28f1f2.js.map": "/ecommerce-site/static/js/main.fd28f1f2.js.map"
   },
   "entrypoints": [
     "static/css/main.7dbd5d82.css",
-    "static/js/main.ddea77fa.js"
+    "static/js/main.fd28f1f2.js"
   ]
 }
